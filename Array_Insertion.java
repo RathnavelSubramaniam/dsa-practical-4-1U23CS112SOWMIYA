@@ -27,7 +27,7 @@ public class Array_Insertion {
     }
     arr[p-1]=e;
     System.out.println("After Inserting");
-    System.out.println("length of the array:" +" "+ len);
+    System.out.println("length of the array:" + (len+1));
     for (int i=0;i<=len;i++){
         System.out.println("arr["+i+"]="+arr[i]);
         }
